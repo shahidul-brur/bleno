@@ -1,5 +1,5 @@
 {
-  "name": "@abandonware/bleno",
+  "name": "@shahidul_brur/bleno",
   "version": "0.5.1-4",
   "description": "A Node.js module for implementing BLE (Bluetooth Low Energy) peripherals",
   "main": "index.js",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/abandonware/bleno"
+    "url": "https://github.com/shahidul-brur/bleno"
   },
   "keywords": [
     "BLE",
@@ -36,9 +36,9 @@
   "readmeFilename": "README.md",
   "devDependencies": {
     "jshint": "~2.12.0",
-    "should": "~13.2.3",
     "mocha": "~8.3.2",
-    "node-blink1": "~0.5.1"
+    "node-blink1": "~0.5.1",
+    "should": "~13.2.3"
   },
   "dependencies": {
     "debug": "^4.3.1",
