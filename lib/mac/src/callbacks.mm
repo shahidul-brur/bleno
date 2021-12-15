@@ -6,8 +6,6 @@
 //
 #include "callbacks.h"
 
-#include <napi-thread-safe-callback.hpp>
-
 #include "napi_objc.h"
 
 #define _s(val) Napi::String::New(env, val)
