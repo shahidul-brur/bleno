@@ -43,7 +43,7 @@ public:
   }
   ~ThreadSafeCallback() {
     // No further interaction with the thread safe function allowed.
-    tsfn_.Abort();
+//    tsfn_.Abort();
   }
   void call(arg_func_t arg_function) {
     arg_func_t *argfn = new arg_func_t(arg_function);
