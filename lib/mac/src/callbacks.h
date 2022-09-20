@@ -43,7 +43,9 @@ public:
   }
   ~ThreadSafeCallback() {
     // No further interaction with the thread safe function allowed.
-//    tsfn_.Abort();
+    // when abort, it causes app crash on mac if force quited
+    // when doesn't abort, it causes high memory usage and leads app to be unresponsive and crash
+    tsfn_.Abort();
   }
   void call(arg_func_t arg_function) {
     arg_func_t *argfn = new arg_func_t(arg_function);
